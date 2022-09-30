@@ -4,58 +4,322 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Erliza's Portfolio</title>
+    <title>Porfolio of Erliza Erbaryanti - Web Developer</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@7/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    
 </head>
 <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-        <div class="container">
-            <a href="#" class="navbar-brand">Erliza E.</a>
-           <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-           data-bs-target="#navmenu"> <span class="navbar-toggler-icon"></span></button> 
+    <div id="menu-bars" class="fas fa-bars"></div>
 
-            <div class="collapse navbar-collapse" id="navmenu">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a href="#about" class="nav-link">about</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#education" class="nav-link">education</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#skills" class="nav-link">skills</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#projects" class="nav-link">projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#contact" class="nav-link">contact</a>
-                    </li>
-                </ul>
-            </div>
+    <header class="header">
+        <div class="logo">
+            <img src="images/Logo.png" alt="logo-erliza">
         </div>
-    </nav>
 
-    <!-- home -->
-    <section class="bg-dark text-light p-5 text-center">
-        <div class="container">
-            <div class="d-flex">
-                <div>
-                    <span class="hi">Hello_</span>
-                    <h2>I am <span> Erliza</span></h2>
-                    <p class="info">A Web Developer</p>
-                    <p class="text">I can work for frontend and backend development in creating websites and web applications</p>
-                </div>
-                
-                <img class="img-fluid w-25" src="/images/Hero.png" alt="">
-            </div>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#project">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div id="social">
+            <a href="https://www.linkedin.com/in/erliza-erbaryanti89/" target="_blank"><i class="fa-brands fa-linkedin"></i></i></a>
+            <a href="mailto:erliza.erb@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></i></a>
+            <a href="https://wa.me/+4917623737661" target="_blank"><i class="fa-brands fa-square-whatsapp"></i></i></a>
+            <a href="https://github.com/ririErliza" target="_blank"></i><i class="fa-brands fa-square-github"></i></a>
         </div>
+
+    </header>
+    
+<!-- ----------------Home--------------------- -->
+    <section class="home" id="home">
+        <div class="content">
+            <span class="hi">Hello_</span>
+            <h2>I am <span> Erliza</span></h2>
+            <p class="info">A Web Developer</p>
+            <p class="text">I can work for frontend and backend development in creating websites and web applications</p>
+            <a href="#about" class="btn">read more</a>
+
+        </div>
+
+        <div class="img">
+            
+            <img id="image-hero" src="images/Hero.png" alt="Erliza Erbaryanti" >
+            
+            <div id="skills-icons">
+                <div><i class="fab fa-html5"></i></div>
+                <div><i class="fab fa-node-js"></i></div>
+                <div><i class="fab fa-js"></i></div>
+                <div><i class="fab fa-bootstrap"></i></div>
+                <div><i class="fab fa-css3-alt"></i></div>
+                    
+            </div>
+                 
+            
+            
+        </div>
+
+      
+        
     </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <!-- ----------------About--------------------- -->
+<section class="about" id="about">
+    <h1 class="heading" id="about-heading"> About <span>me</span></h1>
+
+    <div class="about-row">
+
+        <div class="about-part">
+            <div class="about-image">
+                <img src="images/Education.png" alt="education">
+            </div>
+    
+            <div class="about-content">
+                <p>
+                Speaking about my background in a brief, I graduated from Metallurgy and Materials Engineering. Being an Engineer was an exciting phase for me, however after some years being absent from the Industry, my life evolved. Then, there comes the period of questioning myself "What do I really want to do for the rest of my life? Something that sparks joy but also match to my life goal?"
+                </p>
+            </div>
+        </div>
+
+        <img src="images/Education.png" alt="education" id="education-image">
+    
+        <div class="about-part">
+            <div class="about-content">
+                <p>
+                    After some thinking and researching, finally I decided to make a career change into Web Development. At first I did self-study but after joining a coding school in 2021, with good guidance I progressed much better. In 2022 I completed my training in Web Development, and to this time I keep working to improve my skills while enjoying my new role as a web developer.
+                </p>
+            </div>
+    
+            <div class="about-image">
+                <img src="images/Introduce.png" alt="introduce">
+            </div>
+        </div>
+    
+        <div class="about-part">
+            <div class="about-image">
+                <img src="images/Hobby.png" alt="hobby">
+                
+            </div>
+    
+            <div class="about-content">
+                <p>
+                    For me, web developer is like a bridge between two parties with common ideas or purpose or goal, and it gives me a sense of fulfillment if I can connect people to work together, especially to create sustainable improvements for others. As much as I love what I am doing, I also like to keep a balance life. So when I am not coding or learning, I go out with my small family, enjoying nature, hiking, or simply wandering in forest.
+                
+                </p>
+            </div>
+        </div>
+
+        <img src="images/Introduce.png" alt="introduce" id="introduce-image">
+        <img src="images/Hobby.png" alt="hobby" id="hobby-image">
+
+    </div>
+
+    
+
+
+</section>
+
+ <!-- ----------------Education--------------------- -->
+ <section class="education" id="education">
+    <h1 class="heading" id="education-heading">  <span>My</span> Education</h1>
+
+    <div class="box-container">
+        <div class="box">
+            <div class="content">
+                <span>2021 - 2022</span>
+                <h3>Web Development Program</h3>
+                <p>Get training in MERN Fullstack development.</p>
+            </div>
+
+        </div>
+        <div class="line"></div>
+        <div class="box">
+            <div class="content">
+                <span>2015 - 2016</span>
+                <h3>Master Degree in Materials Science and Simulation</h3>
+                <p>Early departure after 1st semester because of personal reason.</p>
+            </div>
+
+        </div>
+        <div class="line"></div>
+        <div class="box">
+            <div class="content">
+                <span>2007 - 2011</span>
+                <h3>Bachelor Degree in Metallurgy and Materials Engineering</h3>
+                <p>Completed the program with GPA 3.13 (of max 4).</p>
+            </div>
+
+        </div>
+    </div>
+
+ </section>
+  <!-- ----------------Skills--------------------- -->
+
+  <section class="skills" id="skills">
+    <h1 class="heading" id="skills-heading"> My <span>Skills</span></h1>
+    <div id="skills-container">
+        <div><img src="images/skills/1.png" alt="html">HTML5</div>
+        <div><img src="images/skills/3.png" alt="css">CSS</div>
+        <div><img src="images/skills/2.png" alt="js">JavaScript</div>
+        <div><img src="images/skills/6.png" alt="react">React</div>
+        <div><img src="images/skills/8.png" alt="react">Next JS</div>
+        <div><img src="images/skills/5.png" alt="nodeJs">NodeJS</div>
+        <div><img src="images/skills/7.png" alt="mongoDB">MongoDB</div>
+        <div><img src="images/skills/11.png" alt="git">Git</div>
+        <div><img src="images/skills/12.png" alt="github">GitHub</div>
+        <div><img src="images/skills/4.png" alt="bootstrap">Bootstrap</div>
+        <div><img src="images/skills/9.png" alt="mui">Material UI</div>
+        <div><img src="images/skills/13.png" alt="postman">Postman</div>
+        <div><img src="images/skills/10.png" alt="figma">Figma</div>
+    </div>
+  </section>
+   <!-- ----------------Projects----------------------->
+   <section class="project" id="project">
+        <h1 class="heading" id="project-heading"> <span>My </span>Projects</h1>
+
+        <div class="row">
+            
+
+            <div class="image-slider swiper" style="--swiper-navigation-color:rgba(158, 155, 155, 0.14); --swiper-pagination-color: #888">
+                <div class="swiper-wrapper">
+                    <a  class="swiper-slide"><img src="images/web-reviver.png" alt=""></a>
+                    <a  class="swiper-slide"><img src="images/web-reviver-login.png" alt=""></a>
+                    <a  class="swiper-slide"><img src="images/web-reviver-about.png" alt=""></a>
+                    <a  class="swiper-slide"><img src="images/web-reviver-footer.png" alt=""></a>
+                    <a  class="swiper-slide"><img src="images/reviveradmin-login.png" alt=""></a>
+                    <a  class="swiper-slide"><img src="images/reviveradmin-dashboard.png" alt=""></a>
+                    <a  class="swiper-slide"><img src="images/reviveradmin-page.png" alt=""></a>
+                    <a  class="swiper-slide"><img src="images/reviveradmin-createnewdp.png" alt=""></a>
+                    <a  class="swiper-slide"><img src="images/reviver-merchandise.png" alt=""></a>
+                    <a  class="swiper-slide"><img src="images/reviver-merchandise-login.png" alt=""></a>
+                    <a  class="swiper-slide"><img src="images/reviver-merchandise-checkout.png" alt=""></a>
+                    <a  class="swiper-slide"><img src="images/reviver-merchandise-payment.png" alt=""></a>
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+            <div class="content">
+                <!-- <h3>Website of an NGO</h3> -->
+                <p>This project contains a landing page, small online shop and an admin panel.</p>
+                <p>Tech used: HTML, CSS, JS, Bootstrap4, ReactJS, Node.JS(ExpressJS), MongoDB, Firebase</p>
+                <p>Link : <a href="https://reviver-org.vercel.app/" target="_blank">click here</a>  </p>
+            </div>
+        </div>
+
+        
+
+     
+
+        <div class="row">
+
+            <div class="image-slider swiper" style="--swiper-navigation-color: rgba(158, 155, 155, 0.14); --swiper-pagination-color: #888">
+                <div class="swiper-wrapper">
+                    <a  class="swiper-slide"><img src="images/comingSoon.png" alt=""></a>
+            
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+            <div class="content">
+                <h3> </h3>
+                <p> </p>
+            </div>
+        </div>
+
+   </section>
+    <!-- ----------------Contact----------------------->
+    <section class="contact" id="contact">
+        <h1 class="heading" id="contact-heading">Contact <span>Me</span></h1>
+
+        <div class="row">
+
+            <form action="https://formsubmit.co/c99aed313b61b0779c785e5b960272d7" method="POST">
+                <div class="inputBox">
+                    <input type="text" placeholder="name" name="name" required>
+                    <input type="email" placeholder="email" name="email" required>
+                </div>
+                <div class="inputBox">
+                    <input type="text" placeholder="subject" name="subject" id="input-subject" required>
+                </div>
+                    <textarea name="message" placeholder="message" cols="30" rows="10" required></textarea>
+                    <input type="submit" value="send message" class="btn">
+            </form>
+
+            <div class="contact-info-container">
+                
+
+                <div class="box">
+                    <a href="mailto:erliza.erb@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                    <div class="info">
+                        <h3>Email</h3>
+                        <p>erliza.erb@gmail.com</p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <a href="https://github.com/ririErliza" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+                    <div class="info">
+                        <h3>Github</h3>
+                        <p>https://github.com/ririErliza</p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <a href="https://www.google.com/maps/place/North+Rhine-Westphalia/@51.4090023,5.4155746,7z/data=!3m1!4b1!4m5!3m4!1s0x47b9167c8e4248a1:0x2f4c327e4fd78f5f!8m2!3d51.4332367!4d7.6615938" target="_blank"> <i class="fa-solid fa-map-location-dot"></i></a>
+                    <div class="info">
+                        <h3>Location</h3>
+                        <p>Nordrhein-Westfalen, Germany</p>
+                    </div>
+                </div>
+
+               
+            </div>    
+
+          
+
+
+            
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <section id="footer">
+        <hr>
+        <div style="text-align: center; margin-top:15rem">Copyright Erliza Erbaryanti - 2022</div>
+    </section>
+
+    <!-- scroll to top -->
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-chevron-up"></i></button>
+
+
+
+    <!-- Script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@7/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    
 </body>
 </html>
