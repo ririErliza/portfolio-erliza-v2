@@ -9,7 +9,7 @@ const Footer = () => {
     <div className='py-10 flex flex-col gap-12 mt-24 items-center justify-center'>
         <span className='font-bold'>ALL RIGHT RESERVED</span>
 
-        <div className="social flex gap-4 text-[#517de5]">
+        <div className="social flex gap-4 text-[#3a98c8]">
             <FaLinkedinIn size={45}/>
             <FaGithub size={45}/>
             <AiOutlineMail size={45}/>
