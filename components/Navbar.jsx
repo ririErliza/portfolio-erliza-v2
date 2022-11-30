@@ -34,7 +34,7 @@ const Navbar = () => {
             
 
 
-            <div className='text-[#3a98c8] font-semibold'>
+            <div className='text-[#2e2b2c] font-semibold'>
             <ul className='hidden md:flex'>
                 <Link href='/'>
                  <li className="ml-10 text-xl uppercase hover:border-b">Home</li> 

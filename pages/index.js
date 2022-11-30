@@ -21,7 +21,7 @@ export default function Home() {
       </Head>
 
     <Navbar/>
-    <main className="pt-[10rem] px-12">
+    <main className="pt-[10rem] px-12 overflow-hidden">
       <Hero/>
       <About/>
       <Education/>
