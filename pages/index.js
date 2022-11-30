@@ -1,6 +1,13 @@
+
 import Head from "next/head";
+import About from "../components/About";
+import Contact from "../components/Contact";
+import Education from "../components/Education";
+import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
+import Projects from "../components/Projects";
+import Skills from "../components/Skills";
 
 
 export default function Home() {
@@ -14,15 +21,22 @@ export default function Home() {
       </Head>
 
     <Navbar/>
-
-    <main className="max-w-4xl mx-auto">
+    <main className="pt-[10rem] px-12">
       <Hero/>
-
-      <h1>Hello</h1>
-    
+      <About/>
+      <Education/>
+      <Skills/>
+      <Projects/>
+      <Contact/>
+      <Footer/>
 
     </main>
+      
+
+
   
+
+
 
     
       
