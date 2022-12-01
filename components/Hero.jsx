@@ -6,6 +6,8 @@ import { IoLogoCss3 } from "react-icons/io5";
 import { DiJavascript1 } from "react-icons/di";
 import { GrNode } from "react-icons/gr";
 import { HiDatabase } from "react-icons/hi";
+import {FaLinkedinIn, FaGithub} from 'react-icons/fa'
+import {AiOutlineMail, AiOutlinePhone} from 'react-icons/ai'
 
 
 import Link from 'next/link';
@@ -33,18 +35,26 @@ const Hero = () => {
 
         <h1 className='mt-5 py-4 text-gray-700 text-center text-3xl xl:text-5xl'>Hello, I am <span className='text-[#234e99]'>Erliza</span></h1>
                 <h1 className='py-2 text-gray-700 text-center text-lg xl:text-2xl'>Front-End Developer</h1>
-                <p className="py-4 text-gray-600 max-w-[30%] text-center">I am a Front-End Developer with basic understanding of Back-End Development and UI/UX Design.</p>
+                <p className="py-4 text-gray-600 md:max-w-[30%] text-center">I am a Front-End Developer with basic understanding of Back-End Development and UI/UX Design.</p>
           
-                <div className=' flex items-center justify-between m-auto py-4'>
-                            <div className=' text-[#1a3870] font-bold text-center rounded-full shadow-lg shadow-gray-400 p-3 w-[10rem] cursor-pointer hover:scale-110 ease-in duration-300'>
-                                
-                                <Link href='/#contact'>
-                                  <p className=' animate-pulse'>Contact Me</p>
-                                </Link>
+    
+
+                <div className='text-[#234e99]  flex items-center justify-between max-w-[330px] m-auto py-4 gap-2'>
+                            <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                <FaLinkedinIn/>
                             </div>
 
-                            
+                            <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                <FaGithub/>
+                            </div>
 
+                            <div className=' rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                <AiOutlineMail/>
+                            </div>
+
+                            <div className=' rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                <AiOutlinePhone/>
+                            </div>
                 </div>
 
 
