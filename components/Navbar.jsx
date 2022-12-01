@@ -34,7 +34,7 @@ const Navbar = () => {
             
 
 
-            <div className='text-[#2e2b2c] font-semibold'>
+            <div className='text-[#1a3870] font-semibold'>
             <ul className='hidden md:flex'>
                 <Link href='/'>
                  <li className="ml-10 text-xl uppercase hover:border-b">Home</li> 
@@ -56,9 +56,7 @@ const Navbar = () => {
                  <li className="ml-10 text-xl uppercase hover:border-b">Projects</li> 
                 </Link>
 
-                <Link href='/#contact'>
-                 <li className="ml-10 text-xl uppercase hover:border-b">Contact</li> 
-                </Link>
+                
             </ul>
 
             <div onClick={handleNav} className='md:hidden cursor-pointer'>

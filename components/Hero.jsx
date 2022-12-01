@@ -9,6 +9,7 @@ import { HiDatabase } from "react-icons/hi";
 
 import {FaLinkedinIn, FaGithub} from 'react-icons/fa'
 import {AiOutlineMail, AiOutlinePhone} from 'react-icons/ai'
+import Link from 'next/link';
 
 
 const Hero = () => {
@@ -31,25 +32,18 @@ const Hero = () => {
         </div>
 
 
-        <h1 className='mt-5 py-4 text-gray-700 text-center text-3xl xl:text-5xl'>Hello, I am <span className='text-[#3a98c8]'>Erliza</span></h1>
+        <h1 className='mt-5 py-4 text-gray-700 text-center text-3xl xl:text-5xl'>Hello, I am <span className='text-[#6db8dd]'>Erliza</span></h1>
                 <h1 className='py-2 text-gray-700 text-center text-lg xl:text-2xl'>Full-Stack Developer</h1>
           
-                <div className='text-[#3a98c8]  flex items-center justify-between m-auto py-4'>
-                            <div className='rounded-full mr-2 shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
-                                <FaLinkedinIn size={20}/>
+                <div className=' flex items-center justify-between m-auto py-4'>
+                            <div className=' text-[#1a3870] font-bold text-center rounded-full shadow-lg shadow-gray-400 p-3 w-[10rem] cursor-pointer hover:scale-110 ease-in duration-300'>
+                                
+                                <Link href='/#contact'>
+                                  <p>Contact Me</p>
+                                </Link>
                             </div>
 
-                            <div className='rounded-full mr-2 shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
-                                <FaGithub size={20}/>
-                            </div>
-
-                            <div className=' rounded-full mr-2 shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
-                                <AiOutlineMail size={20}/>
-                            </div>
-
-                            <div className=' rounded-full mr-2 shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
-                                <AiOutlinePhone size={20}/>
-                            </div>
+                            
 
                 </div>
       
