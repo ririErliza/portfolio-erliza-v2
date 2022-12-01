@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div className='py-10'>Contact</div>
+    <div id='contact' className='py-20'>Contact</div>
   )
 }
 

@@ -31,20 +31,23 @@ const Hero = () => {
         </div>
 
 
-        <h1 className='mt-5 py-4 text-gray-700 text-center text-3xl xl:text-5xl'>Hello, I am <span className='text-[#6db8dd]'>Erliza</span></h1>
-                <h1 className='py-2 text-gray-700 text-center text-lg xl:text-2xl'>Full-Stack Developer</h1>
+        <h1 className='mt-5 py-4 text-gray-700 text-center text-3xl xl:text-5xl'>Hello, I am <span className='text-[#234e99]'>Erliza</span></h1>
+                <h1 className='py-2 text-gray-700 text-center text-lg xl:text-2xl'>Full-Stack Developer (MERN)</h1>
           
                 <div className=' flex items-center justify-between m-auto py-4'>
                             <div className=' text-[#1a3870] font-bold text-center rounded-full shadow-lg shadow-gray-400 p-3 w-[10rem] cursor-pointer hover:scale-110 ease-in duration-300'>
                                 
                                 <Link href='/#contact'>
-                                  <p>Contact Me</p>
+                                  <p className=' animate-pulse'>Contact Me</p>
                                 </Link>
                             </div>
 
                             
 
                 </div>
+
+
+                <div className='absolute top-60 bg-cyan-200 w-[300px] h-[200px] blur-3xl -z-10'></div>
       
 
     </div>

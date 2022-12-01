@@ -2,7 +2,6 @@
 import Head from "next/head";
 import About from "../components/About";
 import Contact from "../components/Contact";
-import Education from "../components/Education";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
@@ -24,7 +23,6 @@ export default function Home() {
     <main className="pt-[10rem] px-12 overflow-hidden">
       <Hero/>
       <About/>
-      <Education/>
       <Skills/>
       <Projects/>
       <Contact/>
