@@ -1,8 +1,13 @@
 import React from 'react'
+import Title from './Title'
 
 const Projects = () => {
   return (
-    <div className='py-10'>Projects</div>
+    <div id='projects' className='py-20'>
+      <Title title/>
+
+      
+    </div>
   )
 }
 
