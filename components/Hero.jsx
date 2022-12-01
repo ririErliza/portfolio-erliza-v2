@@ -32,7 +32,8 @@ const Hero = () => {
 
 
         <h1 className='mt-5 py-4 text-gray-700 text-center text-3xl xl:text-5xl'>Hello, I am <span className='text-[#234e99]'>Erliza</span></h1>
-                <h1 className='py-2 text-gray-700 text-center text-lg xl:text-2xl'>Full-Stack Developer (MERN)</h1>
+                <h1 className='py-2 text-gray-700 text-center text-lg xl:text-2xl'>Front-End Developer</h1>
+                <p className="py-4 text-gray-600 max-w-[30%] text-center">I am a Front-End Developer with basic understanding of Back-End Development and UI/UX Design.</p>
           
                 <div className=' flex items-center justify-between m-auto py-4'>
                             <div className=' text-[#1a3870] font-bold text-center rounded-full shadow-lg shadow-gray-400 p-3 w-[10rem] cursor-pointer hover:scale-110 ease-in duration-300'>
@@ -47,7 +48,7 @@ const Hero = () => {
                 </div>
 
 
-                <div className='absolute top-60 bg-cyan-200 w-[300px] h-[200px] blur-3xl -z-10'></div>
+                <div className='absolute top-60 bg-gradient-to-r from-[#b6ccfc] to-[#63c4f4] w-[380px] h-[200px] blur-3xl -z-10'></div>
       
 
     </div>
