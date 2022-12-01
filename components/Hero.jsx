@@ -7,8 +7,7 @@ import { DiJavascript1 } from "react-icons/di";
 import { GrNode } from "react-icons/gr";
 import { HiDatabase } from "react-icons/hi";
 
-import {FaLinkedinIn, FaGithub} from 'react-icons/fa'
-import {AiOutlineMail, AiOutlinePhone} from 'react-icons/ai'
+
 import Link from 'next/link';
 
 
