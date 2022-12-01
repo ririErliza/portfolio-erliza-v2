@@ -13,15 +13,15 @@ import Link from 'next/link';
 
 const Hero = () => {
   return (
-    <div className='py-10 flex flex-col justify-center items-center'>
+    <div className='py-10 mb-5 flex flex-col justify-center items-center'>
 
 
         <div className="flex justify-center justify-items-center relative">
           <div className='relative text-[#6db8dd] animate-spin-slow'>
                             <div className='absolute top-1 left-1'><AiFillHtml5 className='animate-spin-slow' size={30}/></div>
-                            <div className='absolute  top-10 right-8'><IoLogoCss3 className='animate-spin-slow ' size={30}/></div>
-                            <div className='absolute top-11 left-11'><DiJavascript1 className='animate-spin-slow' size={30} /></div>
-                            <div className='absolute  top-[7rem] right-4'><GrNode className='animate-spin-slow' size={30}/></div>
+                            <div className='absolute  top-10 right-8'><IoLogoCss3 className='animate-spin-med ' size={30}/></div>
+                            <div className='absolute top-11 left-11'><DiJavascript1 className='animate-spin-med' size={30} /></div>
+                            <div className='absolute  top-[7rem] right-4'><GrNode className='animate-spin-med' size={30}/></div>
                             <div className='absolute top-[7rem] left-9'><HiDatabase className='animate-spin-slow' size={30} /></div>
 
           </div>

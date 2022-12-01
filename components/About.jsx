@@ -1,8 +1,13 @@
 import React from 'react'
+import Cards from './Cards'
+import Title from './Title'
 
 const About = () => {
   return (
-    <div className='py-10'>About</div>
+    <div id='about' className='py-20 flex flex-col justify-center items-center'>
+        <Title title="ABOUT ME" />
+        <Cards/>
+    </div>
   )
 }
 
