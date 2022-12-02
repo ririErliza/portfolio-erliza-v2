@@ -13,7 +13,7 @@ const Skills = () => {
       {Skillspict.map((skill) => (
                         <div className="hover:scale-110 ease-in duration-300 flex flex-col justify-center items-center" key={skill.id}>
                             <Image className='rounded-full' src={skill.image} alt='' width='123' height='50'/>
-                            <div className='w-20 text-center'>
+                            <div className='w-20 pt-1 text-center'>
                                 <p>{skill.name}</p>
                             </div>
                         </div>
