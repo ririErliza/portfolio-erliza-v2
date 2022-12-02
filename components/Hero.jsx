@@ -24,7 +24,7 @@ const Hero = () => {
                             <div className='absolute  top-10 right-8'><IoLogoCss3 className='animate-spin-med ' size={30}/></div>
                             <div className='absolute top-11 left-11'><DiJavascript1 className='animate-spin-med' size={30} /></div>
                             <div className='absolute  top-[7rem] right-4'><GrNode className='animate-spin-med' size={30}/></div>
-                            <div className='absolute top-[7rem] left-9'><HiDatabase className='animate-spin-slow' size={30} /></div>
+                            <div className='absolute top-[7rem] left-9'><HiDatabase className='animate-spin-med' size={30} /></div>
 
           </div>
           <div>
