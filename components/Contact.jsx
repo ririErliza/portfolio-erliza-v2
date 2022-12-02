@@ -7,7 +7,7 @@ import {HiOutlineChevronDoubleUp} from 'react-icons/hi'
 
 const Contact = () => {
   return (
-    <div id='contact' className='py-20'>
+    <div id='contact' className='py-5 md:py-20'>
       <Title title='Contact Me'/>
 
 

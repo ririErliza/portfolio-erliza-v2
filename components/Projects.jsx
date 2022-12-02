@@ -6,7 +6,7 @@ import img2 from '../public/assets/images/reviveradminPage.png'
 
 const Projects = () => {
   return (
-    <div id='projects' className='py-20'>
+    <div id='projects' className='py-5 md:py-20'>
       <Title title='Projects'/>
 
       <div className="grid md:grid-cols-2 gap-8">

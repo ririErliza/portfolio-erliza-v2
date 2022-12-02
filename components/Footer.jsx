@@ -8,7 +8,7 @@ import {HiOutlineChevronDoubleUp} from 'react-icons/hi'
 
 const Footer = () => {
   return (
-    <div className='py-10 flex flex-col gap-12 mt-24 items-center text-[#234e99] justify-center'>
+    <div className='py-5 flex flex-col gap-12 mt-24 items-center text-[#234e99] justify-center'>
         <span className='font-bold'>ALL RIGHTS RESERVED</span>
 
         <div className="social flex gap-4 ">

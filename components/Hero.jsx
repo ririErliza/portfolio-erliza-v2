@@ -64,7 +64,7 @@ const Hero = () => {
                 </div>
 
 
-                <div className='absolute top-[12rem] bg-sky-300 w-[380px] h-[200px] blur-3xl -z-10'></div>
+                <div className='absolute top-[12rem] bg-sky-300 w-[380px]  xl:h-[200px] h-[100px] blur-3xl -z-10'></div>
       
 
     </div>
