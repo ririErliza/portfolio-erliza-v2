@@ -21,7 +21,7 @@ const ProjectItem = ({title,desc,bgImg, projectUrl, codeUrl}) => {
                     </div>
 
                     <div className='md:hidden mt-2 w-[5rem]'>
-                    <Link href={projectUrl}>
+                                            <Link href={projectUrl}>
                                                 <p className='text-center py-2 rounded-lg  text-gray-700 font-bold underline mb-3'>Link</p>
                                             </Link>
                                             <Link href={codeUrl}>

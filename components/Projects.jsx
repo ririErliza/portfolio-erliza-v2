@@ -12,8 +12,8 @@ const Projects = () => {
       <div className="grid md:grid-cols-2 gap-8">
 
                 
-          <ProjectItem title='NGO Web App' bgImg={img1} desc='React JS, Bootstrap, Express JS, MongoDB' projectUrl='/' codeUrl='/'/>
-          <ProjectItem title='Admin Panel' bgImg={img2} desc='React JS, Material UI, Express JS, MongoDB' projectUrl='/' codeUrl='/'/>
+          <ProjectItem title='NGO Web App' bgImg={img1} desc='React JS, Bootstrap, Express JS, MongoDB' projectUrl='https://reviver-org.vercel.app/' codeUrl='https://github.com/ririErliza/capstone-project-v3'/>
+          <ProjectItem title='Admin Panel' bgImg={img2} desc='React JS, Material UI, Express JS, MongoDB' projectUrl='https://reviver-admin.vercel.app/' codeUrl='https://github.com/ririErliza/capstone-project-admin-panel'/>
       </div>
 
 

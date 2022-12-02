@@ -40,21 +40,27 @@ const Hero = () => {
     
 
                 <div className='text-[#234e99]  flex items-center justify-between max-w-[330px] m-auto py-4 gap-2'>
-                            <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                                <FaLinkedinIn/>
-                            </div>
+                            <Link href='https://www.linkedin.com/in/erliza-erbaryanti89/'>
+                              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                  <FaLinkedinIn/>
+                              </div>
+                            </Link>
 
-                            <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                                <FaGithub/>
-                            </div>
+                            <Link href='https://github.com/ririErliza'>
+                              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                  <FaGithub/>
+                              </div>
+                            </Link>
 
-                            <div className=' rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                                <AiOutlineMail/>
-                            </div>
+                            <Link href='mailto:erliza.erb@gmail.com'>
+                              <div className=' rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                  <AiOutlineMail/>
+                              </div>
+                            </Link>
 
-                            <div className=' rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                            {/* <div className=' rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                                 <AiOutlinePhone/>
-                            </div>
+                            </div> */}
                 </div>
 
 
