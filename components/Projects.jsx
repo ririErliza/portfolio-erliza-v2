@@ -1,8 +1,8 @@
 import React from 'react'
 import ProjectItem from './ProjectItem'
 import Title from './Title'
-import img1 from '../public/assets/projects/web-reviver.png'
-import img2 from '../public/assets/projects/reviveradmin-page.png'
+import img1 from '../public/assets/projects/webReviver.png'
+import img2 from '../public/assets/projects/reviveradminPage.png'
 
 const Projects = () => {
   return (
