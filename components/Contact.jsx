@@ -45,7 +45,7 @@ const Contact = () => {
                             </div>
 
                             <div className='w-full text-center'>
-                              <button className='w-50 p-3 text-gray-100 mt-4 hover:scale-110'><input type="submit" value="send message" /></button>
+                              <button type="submit" className='w-50 p-3 text-gray-100 mt-4 hover:scale-110'>Send Message</button>
                             </div>
                            
                         </form>
