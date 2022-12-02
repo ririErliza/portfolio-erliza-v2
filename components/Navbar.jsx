@@ -127,22 +127,25 @@ const Navbar = () => {
                 <div>
                         <p className='uppercase tracking-widest text-[#1a3870]'>Let´s connect</p>
                         <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
-                            <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                <FaLinkedinIn/>
-                            </div>
-
-                            <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                <FaGithub/>
-                            </div>
-
-                            <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                <AiOutlineMail/>
-                            </div>
-
-                            <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                <AiOutlinePhone/>
-                            </div>
+                            <Link href='https://www.linkedin.com/in/erliza-erbaryanti89/'>
+                                <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                                    <FaLinkedinIn/>
+                                </div>
+                            </Link>
                             
+                            <Link href='https://github.com/ririErliza'>
+                                <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                                    <FaGithub/>
+                                </div>
+                            </Link>
+
+                            <Link href='mailto:erliza.erb@gmail.com'>
+                                <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                                    <AiOutlineMail/>
+                                </div>
+                            </Link>
+
+                     
                         </div>
                     </div>
 

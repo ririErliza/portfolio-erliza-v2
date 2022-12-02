@@ -15,7 +15,7 @@ import Link from 'next/link';
 
 const Hero = () => {
   return (
-    <div className='py-10 mb-5 flex flex-col justify-center items-center'>
+    <div className='py-5 mb-5 flex flex-col justify-center items-center'>
 
 
         <div className="flex justify-center justify-items-center relative">
@@ -33,13 +33,13 @@ const Hero = () => {
         </div>
 
 
-        <h1 className='mt-5 py-4 text-gray-700 text-center text-3xl xl:text-5xl'>Hello, I am <span className='text-[#234e99]'>Erliza</span></h1>
+        <h1 className='mt-5 py-2 text-gray-700 text-center text-3xl xl:text-5xl'>Hello, I am <span className='text-[#234e99]'>Erliza</span></h1>
                 <h1 className='py-2 text-gray-700 text-center text-lg xl:text-2xl'>Front-End Developer</h1>
-                <p className="py-4 text-gray-600 md:max-w-[30%] text-center">I am a Front-End Developer with basic understanding of Back-End Development and UI/UX Design.</p>
+                <p className="py-2 text-gray-600 md:max-w-[35%] text-center">I am a Front-End Developer with basic understanding of Back-End Development and UI/UX Design.</p>
           
     
 
-                <div className='text-[#234e99]  flex items-center justify-between max-w-[330px] m-auto py-4 gap-2'>
+                <div className='text-[#234e99]  flex items-center justify-between max-w-[330px] m-auto py-2 gap-2'>
                             <Link href='https://www.linkedin.com/in/erliza-erbaryanti89/'>
                               <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                                   <FaLinkedinIn/>
@@ -64,7 +64,7 @@ const Hero = () => {
                 </div>
 
 
-                <div className='absolute top-60 bg-gradient-to-r from-[#b6ccfc] to-[#63c4f4] w-[380px] h-[200px] blur-3xl -z-10'></div>
+                <div className='absolute top-[12rem] bg-sky-300 w-[380px] h-[200px] blur-3xl -z-10'></div>
       
 
     </div>

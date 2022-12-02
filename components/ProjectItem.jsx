@@ -12,10 +12,10 @@ const ProjectItem = ({title,desc,bgImg, projectUrl, codeUrl}) => {
                         <p className='pb-4 pt-2 text-white text-center'>{desc}</p>
                        
                         <Link href={projectUrl}>
-                            <p className='text-center py-2 rounded-lg bg-white text-gray-700 font-bold mb-3'>Link</p>
+                            <p className='hidden md:block text-center py-2 rounded-lg bg-white text-gray-700 font-bold mb-3'>Link</p>
                         </Link>
                         <Link href={codeUrl}>
-                            <p className='text-center py-2 rounded-lg bg-white text-gray-700 font-bold'>Code</p>
+                            <p className='hidden md:block text-center py-2 rounded-lg bg-white text-gray-700 font-bold'>Code</p>
                         </Link>
                         
                     </div>
