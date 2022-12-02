@@ -34,10 +34,10 @@ const Contact = () => {
                                 <input className='border-2 rounded-lg p-2 flex border-gray-300' name="email" type="email" required />
                             </div>
 
-                            <div className='flex flex-col py-2'>
+                            {/* <div className='flex flex-col py-2'>
                                 <label className='uppercase text-sm py-2'>Subject</label>
                                 <input className='border-2 rounded-lg p-2 flex border-gray-300' name="subject" type="text" required/>
-                            </div>
+                            </div> */}
 
                             <div className='flex flex-col py-2'>
                                 <label className='uppercase text-sm py-2'>Message</label>
